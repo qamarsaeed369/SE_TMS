@@ -21,13 +21,14 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    'corsheaders',
+    "corsheaders",
     "rest_framework",
-    'rest_framework_simplejwt',
+    "rest_framework_simplejwt",
     "rest_framework_simplejwt.token_blacklist",
-    'accounts',
-    'projects',
+    "backend.accounts",  # ✅ Corrected reference
+    "projects",
 ]
+
 
 AUTH_USER_MODEL = "accounts.User"
 
