@@ -25,8 +25,9 @@ INSTALLED_APPS = [
     "rest_framework",
     "rest_framework_simplejwt",
     "rest_framework_simplejwt.token_blacklist",
-    "backend.accounts",  # ✅ Corrected reference
+    "accounts",  # ✅ Corrected reference
     "projects",
+
 ]
 
 
